@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image" href="img/p2.png">
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- Your app title -->
+    <title>Music App</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/covid-app.css" />
+    <link rel="stylesheet" href="css/framework7-icons.css" />
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page" style="background-color: #f3f3f3">
+          <div class="popup popup-about">
+            <div class="block">
+              <p>
+                <a class="link popup-close text-color-orange" href="#">Close</a>
+              </p>
+              <h2>Kelompok Instagram</h2>
+              <!-- Close Popup -->
+              <p>1. Masdani Idham Prasojo Karmawan - 2014000005</p>
+              <p>2. Daniel - 2013000009</p>
+              <p>3. Maria Claudia Yunita Beka - 2014000001</p>
+              <p>4. M. Alhafidz Kusumah - 1913000015</p>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <!-- Static Navbar -->
+            <div class="navbar no-shadow">
+              <div
+                class="navbar-bg"
+                style="background-color: yellow"
+              ></div>
+              <div class="navbar-inner">
+                <div class="title text-color-black font-bolds" style="font-size: 50px">Music</div>
+                <div class="right block">
+                  <a
+                    href="#"
+                    class="text-color-white popup-open"
+                    data-popup=".popup-about"
+                  >
+                    <i class="f7-icons">info_circle_fill</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Banner & Header -->
+            <img src="img/banner2.png" class="banner" alt="" height= "500px" width="100px" />
+            <div class="block" style="margin-top: -300px ">
+              <h1 style="margin-top: -20px" class="text-color-black font-holds" @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');>The Number One Music Application!</h1>
+              <p class="text-color-black font-regular" style="font-size: 18px">
+                If you feel sick with any of covid-19 symptoms<br>
+                You can CALL or SMS us immediately for help </br>
+                You can also see which hospitals are referrals for handling COVID-19 by clicking the HOSPITAL</p>
+                <br>
+
+</div>
+
+<br>
+<div class="bg-color-white elevation-1"
+style="height : 145px; border-radius:20px"
+>
+<br>
+<br>
+<center>
+                  <div class="row margin-half">
+                    <div class="col text-color-orange">
+                      <i class="f7-icons iconz">music_note</i>
+                      <h3 class="font-bolds texts">My Songs</h3>
+                    </div>
+                    <div class="col text-color-orange">
+                      <i class="f7-icons iconz">music_note_list</i>
+                      <h3 class="font-bolds texts">Favourites</h3>
+                    </div>
+                    <div class="col text-color-orange">
+                      <i class="f7-icons iconz">play</i>
+                      <h3 class="font-bolds texts">Playlists</h3>
+                    </div>
+                     <div class="col text-color-orange">
+                      <i class="f7-icons iconz">search</i>
+                      <h3 class="font-bolds texts">Search</h3>
+                    </div>
+                    
+                  </div>
+                </center>
+ 
+            </div>
+            <div class="block">
+              <h2 class="text-color-orange font-bolds">Top Genres</h2>
+              <div class="row">
+                <div class="col-50">
+                  <div
+                    class="card bg-color-yellow elevation-demo elevation-10"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding ">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px; text-align: center;">
+                        Pop
+                      </h1>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation elevation-demo elevation-10"
+                    style="border-radius: 15px; background-color: brown"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px;text-align: center"
+                      >
+                        RnB
+                      </h1>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation bg-color-blue elevation-demo elevation-10 "
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px;text-align: center"
+                      >
+                        Classic
+                      </h1>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation bg-color-red elevation-demo elevation-10"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px;text-align: center"
+                      >
+                        Blues
+                      </h1>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="font-bolds text-color-orange">See Other Genres</h3>
+            <div class="block">
+              <h2 class="font-bolds text-color-orange">Listen Now</h2>
+
+              <div class="card">
+                <div class="card-content" style="background-color:orange">
+                  <div class="list media-list">
+                    <ul>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/theweeknd.jpg" width="80" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">Save Your Tears</div>
+                          </div>
+                          <div class="item-subtitle">The Weeknd</div>
+                        </div>
+                      </li>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/dualipa.jpg" width="80" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">Don't Start Now</div>
+                          </div>
+                          <div class="item-subtitle">Dua Lipa</div>
+                        </div>
+                      </li>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/samsmith.jpg" width="80" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">Diamonds</div>
+                          </div>
+                          <div class="item-subtitle">Sam Smith</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="block">
+            <h2 class="font-bolds text-color-orange">Top Songs</h2></div>
+      <div class="list media-list" style="margin-left: 10px; margin-right: 10px">
+        <ul>
+          <li>
+            <a href="#" class="item-link item-content" style="background-color: orange">
+              <div class="item-media"><img src="img/ariana.jpg"
+                  width="80" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Positions</div>
+                  <div class="item-after">Listen Now</div>
+                </div>
+                <div class="item-text">Ariana Grande
+
+			</div>
+              </div>
+            </a></li>
+          <li>
+            <a href="#" class="item-link item-content" style="background-color: orange">
+              <div class="item-media"><img src=img/justinbieber.jpg
+                  width="80" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Holy</div>
+                  <div class="item-after">Listen Now</div>
+                </div>
+                <div class="item-text">Justin Bieber</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item-link item-content" style="background-color: orange">
+              <div class="item-media"><img src="img/usher.jpg"
+                  width="80" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">My Boo</div>
+                  <div class="item-after">Listen Now</div>
+                </div>
+                
+                <div class="item-text">Usher</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+      <h2 class=" text-color-orange font-bolds">You Might Also Like</h2></div>
+      <div class="list media-list inset">
+        <ul>
+          <li>
+            <a href="#" class="item-link item-content" style="background-color: orange">
+              <div class="item-media"><img src="img/aaron.jpg"
+                  width="80" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Dancin</div>
+                </div>
+                <div class="item-subtitle">Aaron Smith (KRONO Remix)</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item-link item-content"style="background-color: orange">
+              <div class="item-media"><img src="img/lsd.png"
+                  width="80" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Genius</div>
+                </div>
+                <div class="item-subtitle">LSD(Labyrinth,Sia,Diplo)</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item-link item-content"style="background-color: orange">
+              <div class="item-media"><img src="img/billie.jpg"
+                  width="80" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Bad Guy</div>
+                </div>
+                <div class="item-subtitle">Billie Eillish</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+            <!-- Content -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/covid-app.js"></script>
+  </body>
+</html>
